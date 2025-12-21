@@ -50,8 +50,10 @@ const posts = (await getCollection('blog'))
 		<div class="space-y-6">
 			<h2 class="section-title">About Me</h2>
 			<p class="text-lg max-w-xl pb-4">
-				A brief introduction about yourself. You can include your profession,
-				hobbies, interests, or anything you'd like visitors to know about you.
+				As an emerging BIM professional based in Toronto, I am passionate about
+				creating thoughtful, functional spaces that balance creativity with
+				technical precision. My work reflects a commitment to craft, material
+				honesty, and a deep understanding of how design shapes daily experience.
 			</p>
 			<a class="btn-secondary" href={`${SITE_BASE}/about`}
 				>Go to About
@@ -66,13 +68,16 @@ const posts = (await getCollection('blog'))
 			<div class="flex flex-wrap mt-auto space-x-4">
 				<a
 					class="btn-primary"
-					href="mailto:example@email.com"
+					href="mailto:dana.brookman@gmail.com"
 					download
 					target="_blank"
 					>Get in touch
 					<Icon height={20} name="mdi:email" />
 				</a>
-				<a class="btn-secondary" href="https://example.com" target="_blank"
+				<a
+					class="btn-secondary"
+					href="/public/dana_brookman_resume.pdf"
+					target="_blank"
 					>Download Resume
 					<Icon height={20} name="mdi:arrow-collapse-down" />
 				</a>

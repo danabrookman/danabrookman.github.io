@@ -11,10 +11,6 @@ export const SITE_BASE = ''
 
 export const SocialLinks = [
 	{
-		name: 'GitHub',
-		url: 'https://github.com/yashjawale',
-	},
-	{
 		name: 'LinkedIn',
 		url: 'https://www.linkedin.com/in/dana-brookman-2aa57b141/',
 	},
@@ -27,7 +23,7 @@ export const WebsiteLinks = [
 	},
 	{
 		name: 'Portfolio',
-		url: 'https://www.linkedin.com/in/dana-brookman-2aa57b141/',
+		url: 'https://issuu.com/dana.brookman/docs/dana_brookman_portfolio',
 	},
 	{
 		name: 'Blog',
